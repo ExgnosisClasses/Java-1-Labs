@@ -82,14 +82,12 @@ public class Runner {
 	public static void main(String[] args) {
 		Student igor = new Student("Igor");
 		igor.printme();	private String name = null;
-
-	public Student(String name) {
-		//if(this.nameValidator(name)) this.name = name;
-		// or
-		this.setName(name);
-	}a validator which we used int the `setName()` method and we should use it here to be consistent.
+```	
+	
+validator which we used int the `setName()` method and we should use it here to be consistent.
 
 There are two ways we can do this, we can call it from the constructor directly or we can call like this
+
 ```java
 	private String name = null;
 
