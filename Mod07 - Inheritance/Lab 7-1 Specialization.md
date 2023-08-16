@@ -4,6 +4,7 @@
 ## Lab Objectives
 
 In this lab, you will work with specializing a `Dog` class to create a `ServiceDog` class
+
 ---
 <br/>
 <br/>
