@@ -65,7 +65,7 @@ To do this we will write a little static utility method to do this.
 ```java
 	static public int[] copyIntArray(int[] source) {
 		int[] copy = new int[source.length];
-		for (int index = 0; index > source.length; index++) {
+		for (int index = 0; index < source.length; index++) {
 			copy[index] = source[index];
 		}
 		return copy;			
